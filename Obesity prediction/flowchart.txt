@@ -1,0 +1,47 @@
+1. Importing the packages
+2. Exploring the dataset 
+    - Obesity Estimatiopn Data
+3. Data processing
+	- pandas dataframe
+	- Dropping unwanted column
+
+4. Visualization using seaborn & matplotlib
+5. Label Encoding using LabelEncoder
+6. Feature Extraction
+7. Feature Selection using SVM
+8. Splitting the data  X and Y for Machine Learning
+9. Building the model
+
+	- ANN
+	- Naive Bayes
+	- Decision Tree
+	- SVM
+	- Booster
+	- Bagging Classifier
+	- Logistic Regression
+	- Voting Classifier (Bagging Classifier with RF + DecisionTree)
+
+10. Training the model
+11. Dumping the best model 
+
+
+
+Flask Framework
+----------------
+ 
+12. Flask Framework with Sqlite for signup and signin
+13. Importing the packages
+14. User gives input as Feature Values 
+15. The given input is preprocessed for prediction
+16. Trained model is used for prediction
+17. Final outcome is displayed through frontend
+
+
+Extension
+----------
+
+In the base paper the author mentioned to use Obesity Estimat Data for analysis and predicting whether person is normal weight or not using Bagging Classifier 
+with Feature Selection using SVM and compared with other ML models, from which Bagging Classifier got 82% of accuracy,
+As an extension we applied an ensemble method  combining the predictions of multiple individual models to produce a more robust and accurate final prediction.
+However, we can further enhance the performance by exploring other ensemble techniques such as Voting Classifier, from which voting classifier got 100% of accuracy,
+As an extension we can build the front end using the flask framework for user testing and with user authentication.
